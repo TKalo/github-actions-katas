@@ -2,7 +2,7 @@ name: dev-workflow
 on: 
   push:
     branches:
-      - "deb/**"
+      - "dev/**"
 
 env:
   docker_username:  ${{ secrets.DOCKER_USERNAME }}
